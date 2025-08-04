@@ -1,0 +1,15 @@
+PERSONAL_DETAILS=('name:Sean','age:18', 'weight:77 kg','height:6.5 ft','favourite subject:Chemistry',)
+print(PERSONAL_DETAILS)
+slice=PERSONAL_DETAILS[0:4:3]
+len(PERSONAL_DETAILS)
+# Turning tuple into list
+PERSONAL_DETAILS=list(PERSONAL_DETAILS)
+print('updated list:', PERSONAL_DETAILS)
+PERSONAL_DETAILS.pop(3)
+print('after pop:', PERSONAL_DETAILS)
+print(' pop:', PERSONAL_DETAILS)
+PERSONAL_DETAILS.sort()
+print('sorted list:', PERSONAL_DETAILS)
+PERSONAL_DETAILS.reverse()
+print('reversed list:', PERSONAL_DETAILS)
+PERSONAL_DETAILS.clear()
